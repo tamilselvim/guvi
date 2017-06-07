@@ -1,0 +1,17 @@
+import java.util.*;
+public class largest {
+    public static void main(String args[])
+    {
+        Scanner in=new Scanner(System.in);
+        int n1=in.nextInt();
+        int n2=in.nextInt();
+        int n3=in.nextInt();
+        if((n1>=n2)&&(n1>=n3))
+            System.out.println("largest number"+n1);
+        if((n2>=n1)&&(n2>=n3))
+            System.out.println("largest number"+n2);
+        if((n3>=n2)&&(n3>=n1))
+            System.out.println("largest number"+n3);
+    }
+    
+}
